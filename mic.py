@@ -2,7 +2,7 @@
 import pyaudio
 import logging
 
-import app.app_config as app_config
+#import app.app_config as app_config
 
 logging.basicConfig(level=app_config.LOGGER_LEVEL)
 logger = logging.getLogger(__file__)
